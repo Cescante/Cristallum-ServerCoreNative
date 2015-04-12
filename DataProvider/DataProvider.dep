@@ -1,0 +1,9 @@
+DataProvider/DataProvider.o: DataProvider/DataProvider.cpp \
+  DataProvider/inc/DataProvider.h DataProvider/inc/DataProvider_int.h
+
+#DataProvider/rapidjson/include/rapidjson/ #rapidjson stuff
+
+DataProvider/inc/DataProvider.h:
+
+DataProvider/inc/DataProvider_int.h:
+

@@ -1,0 +1,3 @@
+[submodule "DataProvider/rapidjson"]
+	path = DataProvider/rapidjson
+	url = https://github.com/miloyip/rapidjson
