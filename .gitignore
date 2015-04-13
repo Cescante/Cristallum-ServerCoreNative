@@ -1,3 +1,5 @@
-CristallumServerCore
 *.o
 *.swp
+*.pyc
+
+CristallumServerCore

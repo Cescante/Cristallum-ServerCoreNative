@@ -58,7 +58,7 @@ ship: $(PROG)
 .PHONY: clean
 
 clean: 
-	rm -f $(OBJS) $(PROG)
+	rm -f $(ALL_OBJS) $(PROG)
 
 ###################### MISC Targets ###########################
 
