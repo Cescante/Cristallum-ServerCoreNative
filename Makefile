@@ -21,7 +21,7 @@ endif
 
 #################### BUILD PARAMETER VARIABLES ################
 
-CFLAGS = -Wall -Werror -m64 -std=c++11 -stdlib=libc++
+CFLAGS = -Wall -Werror -m64 -std=c++11
 PROG = CristallumServerCore
 
 INCLUDES = -I$(PROJROOT)
