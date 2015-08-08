@@ -53,17 +53,16 @@ debug: $(PROG)
 ship: CFLAGS += -O2
 ship: $(PROG)
 
+###################### MISC Targets ###########################
+
+html_doc:
+	$(DOC) doxygen.conf
 
 ###################### CLEANING RULES #########################
 .PHONY: clean
 
 clean: 
 	rm -f $(ALL_OBJS) $(PROG)
-
-###################### MISC Targets ###########################
-
-html_doc:
-	$(DOC) doxygen.conf
 
 ########### DEPENDENCY FILE INCLUSION ############
 ifeq (1,$(DO_INCLUDE_DEPS))

@@ -2,4 +2,6 @@
 *.swp
 *.pyc
 
+doc/
+
 CristallumServerCore
